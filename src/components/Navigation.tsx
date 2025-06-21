@@ -7,7 +7,7 @@ const Navigation = () => {
   const navItems = [
     { path: "/", label: "Главная", icon: "Home" },
     { path: "/complaints", label: "Жалобы", icon: "AlertTriangle" },
-    { path: "/server", label: "Сервер", icon: "Server" },
+    { path: "/rules", label: "Правила", icon: "BookOpen" },
     { path: "/players", label: "Игроки", icon: "Users" },
   ];
 
