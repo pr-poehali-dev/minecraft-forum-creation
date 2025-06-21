@@ -6,9 +6,9 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Главная", icon: "Home" },
-    { path: "/complaints", label: "Жалобы", icon: "AlertTriangle" },
     { path: "/rules", label: "Правила", icon: "BookOpen" },
-    { path: "/players", label: "Игроки", icon: "Users" },
+    { path: "/players", label: "Онлайн", icon: "Users" },
+    { path: "/complaints", label: "Подать жалобу", icon: "MessageSquare" },
   ];
 
   return (
@@ -16,7 +16,7 @@ const Navigation = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Icon name="Pickaxe" className="text-purple-400" size={28} />
-          <h1 className="text-white text-xl font-bold">МСервер Админ</h1>
+          <h1 className="text-white text-xl font-bold">МСервер</h1>
         </div>
 
         <div className="flex space-x-6">
